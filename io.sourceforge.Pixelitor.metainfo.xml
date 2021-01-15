@@ -14,20 +14,20 @@
   </description>
   <screenshots>
   	<screenshot type="default">
-    <image type="source">https://discourse-flathub-org-uploads.s3.dualstack.us-east-1.amazonaws.com/original/1X/db8831d506107393b6c89191c2a80f0b9534eff4.png</image>
-    <caption>3D Text on Linux</caption>
+    <image type="source">https://user-images.githubusercontent.com/61440491/104672427-b041ed00-56d7-11eb-8d87-9b6d2acee5ab.png</image>
+    <caption>Purple Whirl</caption>
     </screenshot>
     <screenshot>
-    <image type="source">https://pixelitor.sourceforge.io/images/screenshot1.jpg</image>
-    <caption>Glass Tiles Filter</caption>
+    <image type="source">https://user-images.githubusercontent.com/61440491/104671299-6f48d900-56d5-11eb-92c5-60f6b27841e5.png</image>
+    <caption>Text Layer</caption>
     </screenshot>
     <screenshot>
-    <image type="source">https://pixelitor.sourceforge.io/images/screenshot2.jpg</image>
-    <caption>Photo Collage Filter</caption>
+    <image type="source">https://user-images.githubusercontent.com/61440491/104672394-a28c6780-56d7-11eb-9a41-a92968655740.png</image>
+    <caption>Yellow Diamonds</caption>
     </screenshot>
     <screenshot>
-    <image type="source">https://pixelitor.sourceforge.io/images/screenshot3.jpg</image>
-    <caption>Render Marble</caption>
+    <image type="source">https://user-images.githubusercontent.com/61440491/104671793-673d6900-56d6-11eb-8e71-b2074b26c752.png</image>
+    <caption>Flower of Life</caption>
     </screenshot>
   </screenshots>
   <url type="homepage">https://pixelitor.sourceforge.io/</url>
