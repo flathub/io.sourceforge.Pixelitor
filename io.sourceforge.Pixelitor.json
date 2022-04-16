@@ -84,8 +84,8 @@
             "sources": [
               {
                 "type": "archive",
-                "url": "https://download.imagemagick.org/ImageMagick/download/releases/ImageMagick-7.0.10-57.tar.xz",
-                "sha256": "5018d15f12963bd6d86c8a667fba2795ec818a71612b6064f84a0c29a545af21"
+                "url": "https://download.imagemagick.org/ImageMagick/download/releases/ImageMagick-7.1.0-29.tar.xz",
+                "sha256": "a89df63da5ec823ae77049d747bf6b370bc867a06659b410f42652e5773fc62c"
               }
             ]
         },
@@ -108,13 +108,13 @@
             "sources": [
                 {
                   "type": "file",
-                  "url": "https://github.com/lbalazscs/Pixelitor/releases/download/v4.2.3/Pixelitor-4.2.3.jar",
+                  "url": "https://github.com/lbalazscs/Pixelitor/releases/download/v4.3.0/Pixelitor-4.3.0.jar",
                   "sha256": "a768831ea4e0fe04b5d1553ccd6ca8e59ee76d3609ede7f390e927af7ffe4eac",
                   "dest-filename": "pixelitor.jar"
                 },
                 {
                   "type": "file",
-                  "url": "https://github.com/lbalazscs/Pixelitor/raw/v4.2.3/src/main/resources/images/pixelitor_icon256.png",
+                  "url": "https://github.com/lbalazscs/Pixelitor/raw/v4.3.0/src/main/resources/images/pixelitor_icon256.png",
                   "sha256": "1bdace2276459eaffe6e71bdc1cab3ee6ec0c4734ddfd8e488357f247708e95f"
                 },
                 {

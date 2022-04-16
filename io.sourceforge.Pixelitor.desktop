@@ -8,5 +8,5 @@ Terminal=false
 Type=Application
 Keywords=pixelitor;graphic;design;illustration;painting;
 Categories=Graphics;2DGraphics;RasterGraphics;
-MimeType=application/x-pixelitor;image/openraster;image/jpeg;image/png;image/x-icon;image/gif;image/bmp;
+MimeType=application/x-pixelitor;image/openraster;image/jpeg;image/png;image/x-icon;image/gif;image/bmp;image/tiff
 StartupNotify=false
