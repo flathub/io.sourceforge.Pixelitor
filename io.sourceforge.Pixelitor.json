@@ -109,7 +109,7 @@
                 {
                   "type": "file",
                   "url": "https://github.com/lbalazscs/Pixelitor/releases/download/v4.3.0/Pixelitor-4.3.0.jar",
-                  "sha256": "a768831ea4e0fe04b5d1553ccd6ca8e59ee76d3609ede7f390e927af7ffe4eac",
+                  "sha256": "2adaf82781d72b81221b856eb9b08dcaef62192d82c83715ba7bd66186267c86",
                   "dest-filename": "pixelitor.jar"
                 },
                 {
