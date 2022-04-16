@@ -45,7 +45,7 @@
 			<li>New UI for "Enlarge Canvas"</li>
 			<li>Tapering and Reverse Tapering strokes</li>
 			<li>Higher undo limit for lightweight changes</li>
-        </ul>
+        </ul></li>
 	<li>The beginnings of Dutch, French, German, Italian, Spanish translations (with contributions by <a href="https://github.com/albanobattistella">Albano Battistella</a>, <a href="https://github.com/NastyGamer">Jonas Mohr</a>, <a href="https://github.com/Vistaus">Heimen Stoffels</a>)</li>
 	<li>Pixelitor 4.3.0 requires Java 17 or higher</li>
 	<li>Support for the TGA and NetPBM file formats</li>
