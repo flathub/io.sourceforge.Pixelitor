@@ -37,41 +37,33 @@
     <release version="4.3.0" date="2022-04-14">
     <description>
     <ul>
-    <li>Contributions by <a href="https://github.com/Minecraftian14">Anirudh Sharma</a>:
-        <ul>
-            <li>New filters: Flow Field, Comic Book</li>
-            <li>Improved filters: Grid, Spiral, Color Wheel, Mirror</li>
-			<li>Area zooming in the Zoom Tool and in the Navigator</li>
-			<li>New UI for "Enlarge Canvas"</li>
-			<li>Tapering and Reverse Tapering strokes</li>
-			<li>Higher undo limit for lightweight changes</li>
-        </ul></li>
-	<li>The beginnings of Dutch, French, German, Italian, Spanish translations (with contributions by <a href="https://github.com/albanobattistella">Albano Battistella</a>, <a href="https://github.com/NastyGamer">Jonas Mohr</a>, <a href="https://github.com/Vistaus">Heimen Stoffels</a>)</li>
-	<li>Pixelitor 4.3.0 requires Java 17 or higher</li>
+	<li>New filters: Flow Field, Comic Book, Spider Web, Spiral, Grid, Truchet Tiles, Bump Map, Displacement Map</li>
+	<li>Improved filters: Grid, Spiral, Color Wheel, Mirror, Circle to Square, Checker Pattern, Four Color Gradient, Value Noise, Channel Mixer, Threshold, Waves, Marble, Polar Glass Tiles, Starburst, Spiral, Flashlight, Magnify</li>
+	<li>Filter Search</li>
+	<li>Show Last Filter</li>
 	<li>Support for the TGA and NetPBM file formats</li>
 	<li>ImageMagick-based export/import for all the formats supported by ImageMagick 7</li>
 	<li>SVG export in the Pen Tool and the Render/Shapes filters</li>
 	<li>Erase blending mode</li>
 	<li>Presets for filters, tools, and in other places</li>
 	<li>Curved strokes and angle setting in Auto Paint</li>
-	<li>New filters: Spider Web, Spiral, Grid, Truchet Tiles, Bump Map, Displacement Map</li>
-	<li>Improved filters: Circle to Square, Checker Pattern, Four Color Gradient, Value Noise, Channel Mixer, Threshold, Waves, Marble, Polar Glass Tiles, Starburst, Spiral, Flashlight, Magnify</li>
-	<li>Filter Search</li>
-	<li>Show Last Filter</li>
 	<li>Shape settings in the Shapes Tool</li>
 	<li>Shift-drag creates equally sized shapes in Shapes Tool</li>
 	<li>New options for zooming and panning (in Preferences)</li>
 	<li>Printing</li>
 	<li>Better tool icons on HiDPI screens</li>
 	<li>Optional Operating System file choosers</li>
-	<li>Experimental features:<ul> 
-		<li>Smart objects, smart filters</li>
-		<li>Color fill layers</li>
-		<li>Gradient fill layers</li>
-		<li>Shape layers</li>
-		<li>Operating System theme</li>
-	</ul></li>
-    <li>Minor bugfixes and UI improvements</li>
+	<li>Area zooming in the Zoom Tool and in the Navigator</li>
+	<li>New UI for "Enlarge Canvas"</li>
+	<li>Tapering and Reverse Tapering strokes</li>
+	<li>Higher undo limit for lightweight changes</li>
+	<li>The beginnings of Dutch, French, German, Italian, Spanish translations</li>
+	<li>Smart objects, smart filters (experimental feature)</li>
+	<li>Color fill layers (experimental feature)</li>
+	<li>Gradient fill layers (experimental feature)</li>
+	<li>Shape layers (experimental feature)</li>
+	<li>Operating System theme (experimental feature)</li>
+	<li>Minor bugfixes and UI improvements</li>
   </ul>    
   </description>
     <url>https://github.com/lbalazscs/Pixelitor/releases/tag/v4.3.0</url>
