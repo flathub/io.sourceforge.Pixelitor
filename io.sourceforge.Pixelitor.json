@@ -1,7 +1,7 @@
 {
     "id": "io.sourceforge.Pixelitor",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "22.08",
+    "runtime-version": "20.08",
     "command": "pixelitor",
     "sdk": "org.freedesktop.Sdk",
     "sdk-extensions": ["org.freedesktop.Sdk.Extension.openjdk"],
@@ -34,8 +34,7 @@
               {
                 "type": "git",
                 "url": "https://github.com/tamirzb/xgetres",
-                "tag": "1.0",
-                "commit": "7dd6aa2e3a469382ba09152710a5bb4abb3fbc9c"
+                "tag": "1.0"
               }
             ]
         },
@@ -46,8 +45,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/flatpak/flatpak-xdg-utils.git",
-                    "tag": "1.0.5",
-                    "commit": "5ba39872f81bf8d98d58c5f8acb86604645be468"
+                    "tag": "1.0.4"
                 }
             ]
         },
@@ -86,8 +84,8 @@
             "sources": [
               {
                 "type": "archive",
-                "url": "https://github.com/ImageMagick/ImageMagick/archive/7.1.1-15.tar.gz",
-                "sha256": "2372192a76af9be43c0543dd7ae6dfbf34b11fc0203583453ce3f9f707c36bcc"
+                "url": "https://download.imagemagick.org/ImageMagick/download/releases/ImageMagick-7.1.0-29.tar.xz",
+                "sha256": "a89df63da5ec823ae77049d747bf6b370bc867a06659b410f42652e5773fc62c"
               }
             ]
         },
