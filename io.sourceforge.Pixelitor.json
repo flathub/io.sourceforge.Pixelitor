@@ -1,7 +1,7 @@
 {
     "id": "io.sourceforge.Pixelitor",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "24.08",
+    "runtime-version": "26.08",
     "command": "pixelitor",
     "sdk": "org.freedesktop.Sdk",
     "sdk-extensions": ["org.freedesktop.Sdk.Extension.openjdk"],
@@ -53,7 +53,6 @@
         },
         {
             "name": "imagemagick",
-            "cleanup": ["*"],
             "config-opts": [
               "--enable-static=no",
               "--disable-docs",
@@ -83,6 +82,7 @@
               "--without-xml",
               "--without-zlib"
             ],
+            "cleanup": ["*"],
             "sources": [
               {
                 "type": "archive",
@@ -101,9 +101,8 @@
                 "install -Dm755 pixelitor.sh /app/bin/pixelitor"
             ],
             "post-install": [
-                "install -Dm644 io.sourceforge.Pixelitor.metainfo.xml /app/share/metainfo/io.sourceforge.Pixelitor.metainfo.xml",
-                "mkdir -p /app/share/mime/packages/",
-                "install -m644 -p -t /app/share/mime/packages io.sourceforge.Pixelitor.mime.xml",
+                "install -Dm644 io.sourceforge.Pixelitor.metainfo.xml -t /app/share/metainfo/",
+                "install -Dm644 io.sourceforge.Pixelitor.mime.xml -t /app/share/mime/packages/",
                 "update-mime-database /app/share/mime",
                 "desktop-file-install --rebuild-mime-info-cache --dir=/app/share/applications io.sourceforge.Pixelitor.desktop"
             ],
