@@ -1,111 +1,118 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <component type="desktop-application">
-  <id>io.sourceforge.Pixelitor</id>
-  <launchable type="desktop-id">io.sourceforge.Pixelitor.desktop</launchable>
-  <metadata_license>CC0-1.0</metadata_license>
-  <project_license>GPL-3.0-only</project_license>
-  <developer_name>László Balázs-Csíki</developer_name>
-  <name>Pixelitor</name>
-  <summary>Open source image editor</summary>
-  <description>
-    <p>
-    	Pixelitor is an advanced image editor with support for layers, layer masks, text layers, multiple undo, blending modes, cropping, Gaussian blurring, unsharp masking, histograms, etc. It has more than 110 image filters and color adjustments, some of which are unique to Pixelitor. Some of the gradients are unique to Pixelator.
-    </p>
-  </description>
-  <screenshots>
-  	<screenshot type="default">
-    <image type="source">https://user-images.githubusercontent.com/61440491/104672427-b041ed00-56d7-11eb-8d87-9b6d2acee5ab.png</image>
-    <caption>Purple Whirl</caption>
-    </screenshot>
-    <screenshot>
-    <image type="source">https://user-images.githubusercontent.com/61440491/104671299-6f48d900-56d5-11eb-92c5-60f6b27841e5.png</image>
-    <caption>Text Layer</caption>
-    </screenshot>
-    <screenshot>
-    <image type="source">https://user-images.githubusercontent.com/61440491/104672394-a28c6780-56d7-11eb-9a41-a92968655740.png</image>
-    <caption>Yellow Diamonds</caption>
-    </screenshot>
-    <screenshot>
-    <image type="source">https://user-images.githubusercontent.com/61440491/104671793-673d6900-56d6-11eb-8e71-b2074b26c752.png</image>
-    <caption>Flower of Life</caption>
-    </screenshot>
-  </screenshots>
-  <url type="homepage">https://pixelitor.sourceforge.io/</url>
-  <update_contact>nbenitezl_AT_gmail.com</update_contact>
-  <content_rating type="oars-1.1"/>
-  <releases>
-    <release version="4.3.1" date="2023-09-06">
+    <id>io.sourceforge.Pixelitor</id>
+    <launchable type="desktop-id">io.sourceforge.Pixelitor.desktop</launchable>
+    <metadata_license>CC0-1.0</metadata_license>
+    <project_license>GPL-3.0-only</project_license>
+    <developer id="io.github.lbalazscs">
+        <name>László Balázs-Csíki</name>
+    </developer>
+    <name>Pixelitor</name>
+    <summary>Open source image editor</summary>
     <description>
-    <ul>
-	<li>New themes: flat dark, flat light, system</li>
-	<li>UI font type and size in Preferences</li>
-	<li>Support reading WebP files (without ImageMagick)</li>
-	<li>New filters: Abstract Lights, Tile Seamless, Rose, Concentric Shapes, Border Mask</li>
-	<li>Blinds, Checkerboard, Goo and Shapes Grid as separate transition filters</li>
-	<li>Improved filters: Photo Collage, Spheres</li>
-	<li>Snapping to pixel boundaries</li>
-	<li>Layer isolation</li>
-	<li>Crop to content</li>
-	<li>Adjustment layers, layer groups (experimental)</li>
-	<li>Color fill and gradient fill layers are no longer experimental</li>
-	<li>Many smart object improvements (still experimental)</li>
-	<li>Minor bugfixes and UI improvements</li>
-	
-    </ul>    
-  </description>
-    <url>https://github.com/lbalazscs/Pixelitor/releases/tag/v4.3.1</url>
-    </release>  
-    <release version="4.3.0" date="2022-04-14">
-    <description>
-    <ul>
-	<li>New filters: Flow Field, Comic Book, Spider Web, Spiral, Grid, Truchet Tiles, Bump Map, Displacement Map</li>
-	<li>Improved filters: Grid, Spiral, Color Wheel, Mirror, Circle to Square, Checker Pattern, Four Color Gradient, Value Noise, Channel Mixer, Threshold, Waves, Marble, Polar Glass Tiles, Starburst, Spiral, Flashlight, Magnify</li>
-	<li>Filter Search</li>
-	<li>Show Last Filter</li>
-	<li>Support for the TGA and NetPBM file formats</li>
-	<li>ImageMagick-based export/import for all the formats supported by ImageMagick 7</li>
-	<li>SVG export in the Pen Tool and the Render/Shapes filters</li>
-	<li>Erase blending mode</li>
-	<li>Presets for filters, tools, and in other places</li>
-	<li>Curved strokes and angle setting in Auto Paint</li>
-	<li>Shape settings in the Shapes Tool</li>
-	<li>Shift-drag creates equally sized shapes in Shapes Tool</li>
-	<li>New options for zooming and panning (in Preferences)</li>
-	<li>Printing</li>
-	<li>Better tool icons on HiDPI screens</li>
-	<li>Optional Operating System file choosers</li>
-	<li>Area zooming in the Zoom Tool and in the Navigator</li>
-	<li>New UI for "Enlarge Canvas"</li>
-	<li>Tapering and Reverse Tapering strokes</li>
-	<li>Higher undo limit for lightweight changes</li>
-	<li>The beginnings of Dutch, French, German, Italian, Spanish translations</li>
-	<li>Smart objects, smart filters (experimental feature)</li>
-	<li>Color fill layers (experimental feature)</li>
-	<li>Gradient fill layers (experimental feature)</li>
-	<li>Shape layers (experimental feature)</li>
-	<li>Operating System theme (experimental feature)</li>
-	<li>Minor bugfixes and UI improvements</li>
-  </ul>    
-  </description>
-    <url>https://github.com/lbalazscs/Pixelitor/releases/tag/v4.3.0</url>
-    </release>
-    <release version="4.2.3" date="2019-12-11">
-    <description>
-      <ul>
-          <li>Brush outline in the Brush, Eraser, Smudge and Clone Tools</li>
-          <li>Create selection from the text of a text layer</li>
-          <li>Move selection in the Move Tool</li>
-          <li>Copy/paste for selections</li>
-          <li>Selection crop can be nonrectangular (with generated layer masks)</li>
-          <li>"Color randomness" option in the "Spray Shapes Brush"</li>
-          <li>"Image Source" option and Hue/Saturation distances in the "Mask from Color Range"</li>
-          <li>Add layer mask from transparency and from layer contents</li>
-          <li>Chaos Game, Mandelbrot and Julia fractal renderers</li>
-          <li>"Watermarking" option for the Render/Shapes filters</li>
-          <li>Minor bugfixes and UI improvements</li>
-      </ul>
+        <p>
+          Pixelitor is an advanced image editor with support for layers, layer masks, text layers,
+          multiple undo, blending modes, cropping, Gaussian blurring, unsharp masking, histograms, etc.
+          It has more than 110 image filters and color adjustments, some of which are unique to Pixelitor.
+          Some of the gradients are unique to Pixelator.
+        </p>
     </description>
-    <url>https://github.com/lbalazscs/Pixelitor/releases/tag/v4.2.3</url>
-    </release>
-  </releases>
+    <url type="homepage">https://pixelitor.sourceforge.io</url>
+    <url type="bugtracker">https://github.com/lbalazscs/Pixelitor/issues</url>
+    <url type="vcs-browser">https://github.com/lbalazscs/Pixelitor</url>
+    <update_contact>nbenitezl_AT_gmail.com</update_contact>
+    <content_rating type="oars-1.1" />
+    <screenshots>
+        <screenshot type="default">
+            <image type="source">https://user-images.githubusercontent.com/61440491/104672427-b041ed00-56d7-11eb-8d87-9b6d2acee5ab.png</image>
+            <caption>Purple Whirl</caption>
+        </screenshot>
+        <screenshot>
+            <image type="source">https://user-images.githubusercontent.com/61440491/104671299-6f48d900-56d5-11eb-92c5-60f6b27841e5.png</image>
+            <caption>Text Layer</caption>
+        </screenshot>
+        <screenshot>
+            <image type="source">https://user-images.githubusercontent.com/61440491/104672394-a28c6780-56d7-11eb-9a41-a92968655740.png</image>
+            <caption>Yellow Diamonds</caption>
+        </screenshot>
+        <screenshot>
+            <image type="source">https://user-images.githubusercontent.com/61440491/104671793-673d6900-56d6-11eb-8e71-b2074b26c752.png</image>
+            <caption>Flower of Life</caption>
+        </screenshot>
+    </screenshots>
+    <releases>
+        <release version="4.3.1" date="2023-09-06">
+           <url>https://github.com/lbalazscs/Pixelitor/releases/tag/v4.3.1</url>
+           <description>
+                <ul>
+                    <li>New themes: flat dark, flat light, system</li>
+                    <li>UI font type and size in Preferences</li>
+                    <li>Support reading WebP files (without ImageMagick)</li>
+                    <li>New filters: Abstract Lights, Tile Seamless, Rose, Concentric Shapes, Border Mask</li>
+                    <li>Blinds, Checkerboard, Goo and Shapes Grid as separate transition filters</li>
+                    <li>Improved filters: Photo Collage, Spheres</li>
+                    <li>Snapping to pixel boundaries</li>
+                    <li>Layer isolation</li>
+                    <li>Crop to content</li>
+                    <li>Adjustment layers, layer groups (experimental)</li>
+                    <li>Color fill and gradient fill layers are no longer experimental</li>
+                    <li>Many smart object improvements (still experimental)</li>
+                    <li>Minor bugfixes and UI improvements</li>
+                </ul>
+            </description>
+        </release>
+        <release version="4.3.0" date="2022-04-14">
+            <url>https://github.com/lbalazscs/Pixelitor/releases/tag/v4.3.0</url>
+            <description>
+                <ul>
+                    <li>New filters: Flow Field, Comic Book, Spider Web, Spiral, Grid, Truchet Tiles, Bump Map, Displacement Map</li>
+                    <li>Improved filters: Grid, Spiral, Color Wheel, Mirror, Circle to Square, Checker Pattern, Four Color Gradient,
+                        Value Noise, Channel Mixer, Threshold, Waves, Marble, Polar Glass Tiles, Starburst, Spiral, Flashlight, Magnify</li>
+                    <li>Filter Search</li>
+                    <li>Show Last Filter</li>
+                    <li>Support for the TGA and NetPBM file formats</li>
+                    <li>ImageMagick-based export/import for all the formats supported by ImageMagick 7</li>
+                    <li>SVG export in the Pen Tool and the Render/Shapes filters</li>
+                    <li>Erase blending mode</li>
+                    <li>Presets for filters, tools, and in other places</li>
+                    <li>Curved strokes and angle setting in Auto Paint</li>
+                    <li>Shape settings in the Shapes Tool</li>
+                    <li>Shift-drag creates equally sized shapes in Shapes Tool</li>
+                    <li>New options for zooming and panning (in Preferences)</li>
+                    <li>Printing</li>
+                    <li>Better tool icons on HiDPI screens</li>
+                    <li>Optional Operating System file choosers</li>
+                    <li>Area zooming in the Zoom Tool and in the Navigator</li>
+                    <li>New UI for "Enlarge Canvas"</li>
+                    <li>Tapering and Reverse Tapering strokes</li>
+                    <li>Higher undo limit for lightweight changes</li>
+                    <li>The beginnings of Dutch, French, German, Italian, Spanish translations</li>
+                    <li>Smart objects, smart filters (experimental feature)</li>
+                    <li>Color fill layers (experimental feature)</li>
+                    <li>Gradient fill layers (experimental feature)</li>
+                    <li>Shape layers (experimental feature)</li>
+                    <li>Operating System theme (experimental feature)</li>
+                    <li>Minor bugfixes and UI improvements</li>
+                </ul>
+            </description>
+        </release>
+        <release version="4.2.3" date="2019-12-11">
+            <url>https://github.com/lbalazscs/Pixelitor/releases/tag/v4.2.3</url>
+            <description>
+                <ul>
+                    <li>Brush outline in the Brush, Eraser, Smudge and Clone Tools</li>
+                    <li>Create selection from the text of a text layer</li>
+                    <li>Move selection in the Move Tool</li>
+                    <li>Copy/paste for selections</li>
+                    <li>Selection crop can be nonrectangular (with generated layer masks)</li>
+                    <li>"Color randomness" option in the "Spray Shapes Brush"</li>
+                    <li>"Image Source" option and Hue/Saturation distances in the "Mask from Color Range"</li>
+                    <li>Add layer mask from transparency and from layer contents</li>
+                    <li>Chaos Game, Mandelbrot and Julia fractal renderers</li>
+                    <li>"Watermarking" option for the Render/Shapes filters</li>
+                    <li>Minor bugfixes and UI improvements</li>
+                </ul>
+            </description>
+        </release>
+    </releases>
 </component>
